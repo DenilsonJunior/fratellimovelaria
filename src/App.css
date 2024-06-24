@@ -1,0 +1,27 @@
+@import url('./assets/fonts/noto/stylesheet.css');
+
+:root {
+    --color01: #F9CE87; 
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: 'Noto Sans TC';
+}
+
+body {
+    display: flex;
+    place-items: center;
+    min-width: 32rem;
+
+    #root {
+        width: 100%;
+    }
+}
+
+p {
+    font-size: 1.6rem;
+}

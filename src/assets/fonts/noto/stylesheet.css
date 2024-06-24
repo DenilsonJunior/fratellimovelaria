@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Noto Sans TC';
+    src: url('NotoSansTC-Bold.woff2') format('woff2'),
+        url('NotoSansTC-Bold.woff') format('woff'),
+        url('NotoSansTC-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans TC';
+    src: url('NotoSansTC-Regular.woff2') format('woff2'),
+        url('NotoSansTC-Regular.woff') format('woff'),
+        url('NotoSansTC-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans TC';
+    src: url('NotoSansTC-Light.woff2') format('woff2'),
+        url('NotoSansTC-Light.woff') format('woff'),
+        url('NotoSansTC-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
