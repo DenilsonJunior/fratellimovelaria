@@ -20,6 +20,7 @@ export const Quem = styled.section`
             align-items: center;
             @media (max-width: 768px) {
                 width: 100%;
+                text-align: center;
             }
             img {
                 width: 12rem;
@@ -38,6 +39,7 @@ export const Quem = styled.section`
                 padding-left: 2rem;
                 color: white;
                 font-size: 2rem;
+                text-align: left;
             }
         }
     }
