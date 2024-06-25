@@ -3,7 +3,7 @@ import { Quem } from './styles';
 function QuemSomos() {
     return (
         <Quem>
-            <div className='max-conteudo pb-20'>
+            <div className='max-conteudo'>
                 <h1 className='text-center'>QUEM SOMOS - FRATELLI MOVELARIA</h1>
                 <div className='flex py-10'>
                     <div className='box'>
@@ -28,7 +28,7 @@ function QuemSomos() {
                         </p>
                     </div>
                 </div>
-                <div className='flex py-10'>
+                <div className='flex'>
                     <div className='box'>
                         <img src="./assets/img/missao.png" alt=""/>
                         <h2>Missão</h2>

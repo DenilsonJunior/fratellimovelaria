@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Quem = styled.section`
     background-color: var(--color02);
+    padding: 10rem 0;
 
     h1 {
         color: var(--color01);
@@ -23,8 +24,9 @@ export const Quem = styled.section`
                 text-align: center;
             }
             img {
-                width: 12rem;
+                width: 10rem;
                 margin: 0 auto;
+                /* filter: drop-shadow(0.05rem 0.05rem 0.5rem rgba(255, 255, 255, .3)); */
             }
             h2 {
                 color: var(--color01);

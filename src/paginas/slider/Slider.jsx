@@ -33,7 +33,7 @@ function Slider(props) {
     }, [])
 
     return (
-        <SecSliders id={props.id} className='sliders pt-20 pb-20'>
+        <SecSliders id={props.id} className='sliders pt-20'>
             <Swiper
                 modules={[Navigation, Autoplay, Scrollbar, A11y]}
                 spaceBetween={0}
