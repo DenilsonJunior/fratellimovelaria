@@ -19,8 +19,8 @@ export const BtnPadrao = styled.button`
         background-color: rgba(255, 255, 255, .1);
     }
 
-    p {
+    .text {
         font-size: 1.5rem;
-        color: var(--color01);
+        color: var(--color01) !important;
     }
 `

@@ -1,7 +1,8 @@
 @import url('./assets/fonts/noto/stylesheet.css');
 
 :root {
-    --color01: #F9CE87; 
+    --color01: #F9CE87;
+    --color02: #121619;
 }
 
 * {

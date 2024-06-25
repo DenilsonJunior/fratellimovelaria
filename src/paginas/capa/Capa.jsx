@@ -9,7 +9,7 @@ function Capa() {
     return (
         <Home>
             <img className="logo" src="./assets/img/logo.png" alt="Logo da Fratelli Movelaria" />
-            <p>Boas-vindas</p>
+            <p className='text'>Boas-vindas</p>
             <Line
                 class='mt-20 mb-20'
             />

@@ -7,7 +7,7 @@ export const Home = styled.section`
     background-size: cover;
     background-position: center;
     width: 100%;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,7 +20,7 @@ export const Home = styled.section`
         margin-bottom: 50em;
     }
 
-    p {
+    .text {
         color: white;
     }
 `
