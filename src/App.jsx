@@ -10,7 +10,9 @@ function App() {
     return (
         <>
             <Capa/>
-            <Slider/>
+            <Slider
+                id='slider'
+            />
         </>
     )
 }

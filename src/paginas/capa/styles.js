@@ -18,6 +18,9 @@ export const Home = styled.section`
         width: 30rem;
         /* filter: drop-shadow(0.3rem 0.3rem 0.3rem #fff); */
         margin-bottom: 50em;
+        @media (max-width: 758px) {
+            width: 20rem;
+        }
     }
 
     .text {

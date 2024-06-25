@@ -1,7 +1,10 @@
 import styled from 'styled-components';
 
 export const SecSliders = styled.section`
+    position: relative;
     background-color: var(--color02);
+    display: flex;
+    justify-content: center;
     .swiper {
         width: 100%;
         height: 100%;

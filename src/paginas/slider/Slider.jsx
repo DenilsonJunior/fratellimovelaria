@@ -1,4 +1,5 @@
 import { Navigation, Autoplay, Scrollbar, A11y } from 'swiper/modules';
+import { useState, useEffect } from 'react';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { SecSliders, Image } from './styles';
@@ -7,13 +8,34 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-function Slider() {
+function Slider(props) {
+    const [slideView, setSlideView] = useState(1)
+
+    useEffect(() => {
+        function handleResize() {
+            if (window.innerWidth < 720) {
+                setSlideView(2)
+            } else {
+                setSlideView(3)
+            }
+        }
+
+        handleResize();
+
+        window.addEventListener("resize", handleResize)
+
+        return () => {
+            window.removeEventListener("resize", handleResize)
+        }
+
+    }, [])
+
     return (
-        <SecSliders className='sliders pt-20 pb-20'>
+        <SecSliders id={props.id} className='sliders pt-20 pb-20'>
             <Swiper
                 modules={[Navigation, Autoplay, Scrollbar, A11y]}
                 spaceBetween={0}
-                slidesPerView={3}
+                slidesPerView={slideView}
                 loop={true}
                 autoplay={{
                     delay: 2000,

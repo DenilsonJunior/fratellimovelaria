@@ -13,7 +13,7 @@ function Capa() {
             <Line
                 class='mt-20 mb-20'
             />
-            <div className="flex flex-wrap gap-6 mb-20">
+            <div className="flex flex-wrap gap-6 mb-20 px-10">
                 <BtnPadrao
                     class="button"
                     nome="Obras Residênciais"
@@ -23,7 +23,7 @@ function Capa() {
                     nome="Obras Comerciais"
                 />
             </div>
-            <LinkPage link="#teste">
+            <LinkPage link="#slider">
                 <MdKeyboardDoubleArrowDown/>
             </LinkPage>
         </Home>
