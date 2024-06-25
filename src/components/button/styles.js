@@ -14,6 +14,7 @@ export const BtnPadrao = styled.button`
     transition-duration: .3s;
     display: block;
     backdrop-filter: blur(.2rem);
+    background-color: transparent;
     &:hover {
         transform: scale(.95);
         background-color: rgba(255, 255, 255, .1);

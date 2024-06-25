@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const Home = styled.section`
     position: relative;
     background-color: black;
+    background-attachment: fixed;
     background-image: url(./assets/img/capa.png);
     background-size: cover;
     background-position: center;
@@ -12,7 +13,6 @@ export const Home = styled.section`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 10rem 0;
 
     .logo {
         width: 30rem;
@@ -25,5 +25,6 @@ export const Home = styled.section`
 
     .text {
         color: white;
+        font-size: 1.6rem;
     }
 `

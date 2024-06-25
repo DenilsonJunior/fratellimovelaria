@@ -15,8 +15,10 @@ function Slider(props) {
         function handleResize() {
             if (window.innerWidth < 720) {
                 setSlideView(2)
-            } else {
+            } else if (window.innerWidth < 1600) {
                 setSlideView(3)
+            } else {
+                setSlideView(5)
             }
         }
 
@@ -45,27 +47,27 @@ function Slider(props) {
             >
                 <SwiperSlide>
                     <Image>
-                        <img src="./assets/img/img1.webp" alt="" />
+                        <img src="./assets/img/img1.png" alt="" />
                     </Image>
                 </SwiperSlide>
                 <SwiperSlide>
                     <Image>
-                        <img src="./assets/img/img2.webp" alt="" />
+                        <img src="./assets/img/img2.png" alt="" />
                     </Image>
                 </SwiperSlide>
                 <SwiperSlide>
                     <Image>
-                        <img src="./assets/img/img3.webp" alt="" />
+                        <img src="./assets/img/img3.png" alt="" />
                     </Image>
                 </SwiperSlide>
                 <SwiperSlide>
                     <Image>
-                        <img src="./assets/img/img4.webp" alt="" />
+                        <img src="./assets/img/img4.png" alt="" />
                     </Image>
                 </SwiperSlide>
                 <SwiperSlide>
                     <Image>
-                        <img src="./assets/img/img5.webp" alt="" />
+                        <img src="./assets/img/img5.png" alt="" />
                     </Image>
                 </SwiperSlide>
             </Swiper>
