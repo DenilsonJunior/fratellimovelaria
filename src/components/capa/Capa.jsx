@@ -1,6 +1,6 @@
-import Line from '../../components/line/Line';
-import BtnPadrao from '../../components/button/Button';
-import LinkPage from '../../components/linkPage/LinkPage';
+import Line from '../line/Line';
+import BtnPadrao from '../button/Button';
+import LinkPage from '../linkPage/LinkPage';
 
 import { Home } from './styles';
 import { MdKeyboardDoubleArrowDown } from "react-icons/md";

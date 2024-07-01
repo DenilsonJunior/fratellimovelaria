@@ -8,7 +8,7 @@ export const BtnPadrao = styled.button`
     width: fit-content;
     min-width: 30rem;
     margin: 0 auto;
-    padding: 1rem 5rem;
+    padding: 2rem 5rem;
     border: solid var(--color01) .2em;
     box-shadow: .3rem .3rem .5rem #0009;
     transition-duration: .3s;
